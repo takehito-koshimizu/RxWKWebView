@@ -1,0 +1,10 @@
+framework module WKNavigationDelegateProxy {
+  umbrella header "WKNavigationDelegateProxy.h"
+
+  export *
+  module * { export * }
+}
+
+module WKNavigationDelegateProxy.Swift {
+    header "WKNavigationDelegateProxy-Swift.h"
+}
