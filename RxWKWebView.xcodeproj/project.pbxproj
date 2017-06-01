@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB51DF471EC52F1100144BF4 /* WKNavigationDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AB51DF451EC52F1100144BF4 /* WKNavigationDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0EA7261EDFAE9B006B66EC /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0EA7251EDFAE9B006B66EC /* WKWebView.swift */; };
+		AB51DF471EC52F1100144BF4 /* RxWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB51DF451EC52F1100144BF4 /* RxWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB51DF4E1EC52F2900144BF4 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AB51DF4D1EC52F2900144BF4 /* Cartfile */; };
 		AB51DF501EC52F8700144BF4 /* WKNavigationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51DF4F1EC52F8700144BF4 /* WKNavigationDelegateProxy.swift */; };
 		AB51DF541EC52FB300144BF4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB51DF521EC52FB300144BF4 /* RxCocoa.framework */; };
@@ -15,8 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB51DF421EC52F1100144BF4 /* WKNavigationDelegateProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WKNavigationDelegateProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB51DF451EC52F1100144BF4 /* WKNavigationDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKNavigationDelegateProxy.h; sourceTree = "<group>"; };
+		AB0EA7251EDFAE9B006B66EC /* WKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
+		AB51DF421EC52F1100144BF4 /* RxWKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxWKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB51DF451EC52F1100144BF4 /* RxWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxWKWebView.h; sourceTree = "<group>"; };
 		AB51DF461EC52F1100144BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB51DF4D1EC52F2900144BF4 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AB51DF4F1EC52F8700144BF4 /* WKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
@@ -40,29 +42,30 @@
 		AB51DF381EC52F1100144BF4 = {
 			isa = PBXGroup;
 			children = (
-				AB51DF431EC52F1100144BF4 /* Products */,
-				AB51DF441EC52F1100144BF4 /* WKNavigationDelegateProxy */,
 				AB51DF4D1EC52F2900144BF4 /* Cartfile */,
 				AB51DF511EC52FB300144BF4 /* Frameworks */,
+				AB51DF431EC52F1100144BF4 /* Products */,
+				AB51DF441EC52F1100144BF4 /* RxWKWebView */,
 			);
 			sourceTree = "<group>";
 		};
 		AB51DF431EC52F1100144BF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB51DF421EC52F1100144BF4 /* WKNavigationDelegateProxy.framework */,
+				AB51DF421EC52F1100144BF4 /* RxWKWebView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB51DF441EC52F1100144BF4 /* WKNavigationDelegateProxy */ = {
+		AB51DF441EC52F1100144BF4 /* RxWKWebView */ = {
 			isa = PBXGroup;
 			children = (
 				AB51DF461EC52F1100144BF4 /* Info.plist */,
-				AB51DF451EC52F1100144BF4 /* WKNavigationDelegateProxy.h */,
+				AB51DF451EC52F1100144BF4 /* RxWKWebView.h */,
 				AB51DF4F1EC52F8700144BF4 /* WKNavigationDelegateProxy.swift */,
+				AB0EA7251EDFAE9B006B66EC /* WKWebView.swift */,
 			);
-			path = WKNavigationDelegateProxy;
+			path = RxWKWebView;
 			sourceTree = "<group>";
 		};
 		AB51DF511EC52FB300144BF4 /* Frameworks */ = {
@@ -81,16 +84,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB51DF471EC52F1100144BF4 /* WKNavigationDelegateProxy.h in Headers */,
+				AB51DF471EC52F1100144BF4 /* RxWKWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB51DF411EC52F1100144BF4 /* WKNavigationDelegateProxy */ = {
+		AB51DF411EC52F1100144BF4 /* RxWKWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB51DF4A1EC52F1100144BF4 /* Build configuration list for PBXNativeTarget "WKNavigationDelegateProxy" */;
+			buildConfigurationList = AB51DF4A1EC52F1100144BF4 /* Build configuration list for PBXNativeTarget "RxWKWebView" */;
 			buildPhases = (
 				AB51DF3D1EC52F1100144BF4 /* Sources */,
 				AB51DF3E1EC52F1100144BF4 /* Frameworks */,
@@ -102,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = WKNavigationDelegateProxy;
+			name = RxWKWebView;
 			productName = WKNavigationDelegateProxy;
-			productReference = AB51DF421EC52F1100144BF4 /* WKNavigationDelegateProxy.framework */;
+			productReference = AB51DF421EC52F1100144BF4 /* RxWKWebView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB51DF3C1EC52F1100144BF4 /* Build configuration list for PBXProject "WKNavigationDelegateProxy" */;
+			buildConfigurationList = AB51DF3C1EC52F1100144BF4 /* Build configuration list for PBXProject "RxWKWebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -135,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB51DF411EC52F1100144BF4 /* WKNavigationDelegateProxy */,
+				AB51DF411EC52F1100144BF4 /* RxWKWebView */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB51DF501EC52F8700144BF4 /* WKNavigationDelegateProxy.swift in Sources */,
+				AB0EA7261EDFAE9B006B66EC /* WKWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +299,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = WKNavigationDelegateProxy/Info.plist;
+				INFOPLIST_FILE = RxWKWebView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.WKNavigationDelegateProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.RxWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -320,11 +324,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = WKNavigationDelegateProxy/Info.plist;
+				INFOPLIST_FILE = RxWKWebView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.WKNavigationDelegateProxy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.RxWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -334,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB51DF3C1EC52F1100144BF4 /* Build configuration list for PBXProject "WKNavigationDelegateProxy" */ = {
+		AB51DF3C1EC52F1100144BF4 /* Build configuration list for PBXProject "RxWKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB51DF481EC52F1100144BF4 /* Debug */,
@@ -343,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB51DF4A1EC52F1100144BF4 /* Build configuration list for PBXNativeTarget "WKNavigationDelegateProxy" */ = {
+		AB51DF4A1EC52F1100144BF4 /* Build configuration list for PBXNativeTarget "RxWKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB51DF4B1EC52F1100144BF4 /* Debug */,

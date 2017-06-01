@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB51DF411EC52F1100144BF4"
-               BuildableName = "WKNavigationDelegateProxy.framework"
-               BlueprintName = "WKNavigationDelegateProxy"
-               ReferencedContainer = "container:WKNavigationDelegateProxy.xcodeproj">
+               BuildableName = "RxWKWebView.framework"
+               BlueprintName = "RxWKWebView"
+               ReferencedContainer = "container:RxWKWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB51DF411EC52F1100144BF4"
-            BuildableName = "WKNavigationDelegateProxy.framework"
-            BlueprintName = "WKNavigationDelegateProxy"
-            ReferencedContainer = "container:WKNavigationDelegateProxy.xcodeproj">
+            BuildableName = "RxWKWebView.framework"
+            BlueprintName = "RxWKWebView"
+            ReferencedContainer = "container:RxWKWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB51DF411EC52F1100144BF4"
-            BuildableName = "WKNavigationDelegateProxy.framework"
-            BlueprintName = "WKNavigationDelegateProxy"
-            ReferencedContainer = "container:WKNavigationDelegateProxy.xcodeproj">
+            BuildableName = "RxWKWebView.framework"
+            BlueprintName = "RxWKWebView"
+            ReferencedContainer = "container:RxWKWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

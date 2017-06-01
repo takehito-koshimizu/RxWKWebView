@@ -1,6 +1,6 @@
 //
 //  WKNavigationDelegateProxy.swift
-//  WKNavigationDelegateProxy
+//  RxWKWebView
 //
 //  Created by Takehito Koshimizu on 2017/05/12.
 //  Copyright © 2017年 Takehito Koshimizu. All rights reserved.
