@@ -11,8 +11,6 @@
 		AB51DF471EC52F1100144BF4 /* RxWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB51DF451EC52F1100144BF4 /* RxWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB51DF4E1EC52F2900144BF4 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AB51DF4D1EC52F2900144BF4 /* Cartfile */; };
 		AB51DF501EC52F8700144BF4 /* WKNavigationDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51DF4F1EC52F8700144BF4 /* WKNavigationDelegateProxy.swift */; };
-		AB51DF541EC52FB300144BF4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB51DF521EC52FB300144BF4 /* RxCocoa.framework */; };
-		AB51DF551EC52FB300144BF4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB51DF531EC52FB300144BF4 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +20,6 @@
 		AB51DF461EC52F1100144BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB51DF4D1EC52F2900144BF4 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AB51DF4F1EC52F8700144BF4 /* WKNavigationDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNavigationDelegateProxy.swift; sourceTree = "<group>"; };
-		AB51DF521EC52FB300144BF4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		AB51DF531EC52FB300144BF4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,8 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB51DF541EC52FB300144BF4 /* RxCocoa.framework in Frameworks */,
-				AB51DF551EC52FB300144BF4 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +65,6 @@
 		AB51DF511EC52FB300144BF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB51DF521EC52FB300144BF4 /* RxCocoa.framework */,
-				AB51DF531EC52FB300144BF4 /* RxSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +114,7 @@
 					AB51DF411EC52F1100144BF4 = {
 						CreatedOnToolsVersion = 8.3.2;
 						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -292,6 +284,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -305,6 +298,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.RxWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -317,6 +311,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -330,6 +325,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takehito.koshimizu.app.RxWKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
